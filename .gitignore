@@ -3,11 +3,20 @@
 *.pot
 *.pyc
 __pycache__
-db.sqlite3
-media
 
 # Backup files #
 *.bak
+
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Icon files
+._*g
+
+# Thumbnails
+Thumbs.db
 
 # If you are using PyCharm #
 # User-specific stuff
@@ -16,6 +25,10 @@ media
 .idea/**/usage.statistics.xml
 .idea/**/dictionaries
 .idea/**/shelf
+.idea/
+*.iml
+*.ipr
+*.iws
 
 # AWS User-specific
 .idea/**/aws.xml
